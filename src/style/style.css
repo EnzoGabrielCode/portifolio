@@ -10,7 +10,7 @@ body{
 
 header{
     display: flex;
-    width: 100%;
+    width: 100vw;
     height: 56px;
     background-color: #111217;
     border-bottom: 1px solid #28292E;
@@ -38,4 +38,102 @@ header{
 
 .logo_nome > img{
     width: 50%;
+}
+
+.container_apresentacao{
+    display: flex;
+    height: auto;
+    margin-top: 5%;
+    margin-left: 10%;
+    margin-right: 10%;
+}
+
+.container_textos{
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    height: 100%;
+    gap: 24px;
+}
+
+.container_img{
+    width: 100%;
+}
+
+.container_nome{
+    color: #fff;
+    text-transform: uppercase;
+    padding-top: 1%;
+}
+
+.container_nome h1{
+    font-size: 4rem;
+    font-weight: 600;
+}
+
+.container_nome h2{
+    font-size: 2rem;
+    font-weight: 300;
+}
+
+.container_img > img{
+    width: 100%;
+    border-radius: 50%;
+}
+
+.container_descricao{
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    color: #fff;
+}
+
+.container_descricao h3{
+    text-transform: uppercase;
+}
+
+.container_descricao p{
+    color: #9A9A9A;
+    padding-right: 15px;
+}
+
+.links{
+    display: flex;
+    gap: 10px;
+    color: #9A9A9A;
+    align-items: center;
+    padding-left: 15px;
+    height: 30px;
+}
+
+.menu_links{
+    display: flex;
+    gap: 10px;
+    color: #9A9A9A;
+    align-items: center;
+    padding-left: 15px;
+    padding-right: 15px;
+    height: 30px;
+}
+
+
+.menu_link{
+    width: 25px;
+    height: 25px;
+    color: #9A9A9A;
+}
+
+.btn{
+    display: flex;
+    gap: 0.625rem;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+    background: transparent;
+    border-radius: 3.125rem;
+    border: none;
+    padding: 0.3rem 0.8rem;
+    cursor: pointer;
+    color: #fff;
+    border: 1px solid #fff;
 }
