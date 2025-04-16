@@ -292,3 +292,104 @@ header{
     text-transform: uppercase;
     padding: 20px;
 }
+
+.contairner_formacao{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin-left: 10%;
+    margin-right: 10%;
+    margin-top: 5%;
+    color: #F0F0F0;
+    margin-bottom: 5%;
+    gap: 50px;
+}
+
+.textos_info{
+    display: flex;
+    width: 100%;
+    justify-content: space-between;
+    gap: 10%;
+}
+
+.formacao_title h2{
+    font-size: 3rem;
+    text-transform: uppercase;
+    font-weight: 200;
+    padding-bottom: 20px;
+}
+
+.formacao_text{
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+
+.formacao_text h3{
+    font-size: 1.7rem;
+}
+
+.formacao_text ul li{
+    font-size: 1.5rem;
+}
+
+.experiencias_title{
+    width: 50%;
+}
+
+.experiencias_title h2{
+    font-size: 3rem;
+    text-transform: uppercase;
+    font-weight: 200;
+    padding-bottom: 20px;
+}
+
+.experiencias_text h3{
+    font-size: 1.7rem;
+
+}
+
+.experiencias_text h4{
+    font-size: 1.5rem;
+    line-height: 160%;
+}
+
+.experiencias_text p{
+    font-size: 1.5rem;
+    padding-bottom: 10px;
+}
+
+.experiencias_text ul li{
+    font-size: 1.5rem;
+    list-style: disc;
+    margin-left: 2.5%;
+}
+
+.cursos{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+    gap: 50px;
+}
+
+.cursos_text h2{
+    font-size: 3rem;
+    text-transform: uppercase;
+    font-weight: 200;
+}
+
+.cursos_container{
+    display: flex;
+    width: 100%;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.cursos_card{
+    background-color: #3F3F43;
+    height: 450px;
+    width: 388px;
+}
