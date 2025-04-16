@@ -122,6 +122,7 @@ header{
 
 .menu_link{
     color: #9A9A9A;
+    font-size: 2rem;
 }
 
 .btn{
@@ -137,6 +138,10 @@ header{
     cursor: pointer;
     color: #fff;
     border: 1px solid #fff;
+}
+
+.links .btn{
+    font-size: 1.25rem;
 }
 
 #tecnologias{
@@ -334,7 +339,7 @@ header{
     font-size: 1.7rem;
 }
 
-.formacao_text ul li{
+.formacao_text {
     font-size: 1.5rem;
 }
 
@@ -388,12 +393,96 @@ header{
 .cursos_container{
     display: flex;
     width: 100%;
-    justify-content: space-between;
+    justify-content: space-around;
     align-items: center;
+    margin-bottom: 5%;
 }
 
 .cursos_card{
-    background-color: #3F3F43;
-    height: 450px;
+    display: flex;
+    flex-direction: column;
+    background-color: #28292E;
+    border-radius: 10px;
+    gap: 35px;
+    padding: 35px;
     width: 388px;
+}
+
+.certificado_img img{
+    border-radius: 10px;
+    width: 318px;
+    height: 200px;
+}
+
+.certificado_texto h4{
+    font-size: 1.5rem;
+    width: 100%;
+}
+
+.certificado_btn{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.certificado_btn .btn{
+    padding: 10px;
+    font-size: 1rem;
+    text-transform: uppercase;
+}
+
+.container_contato{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 60px;
+    padding-top: 60px;
+    border-top: 1px solid #3F3F43;
+    gap: 20px;
+}
+
+.container_contato h2{
+    color: #F0F0F0;
+    text-transform: uppercase;
+    font-size: 2.5rem;
+    font-weight: 300;
+}
+
+.container_contato p{
+    color: #9A9A9A;
+    font-size: 1.25rem;
+}
+
+.container_contato .menu__icon{
+    color: #9A9A9A;
+}
+
+.container_contato ul{
+    display: flex;
+    gap: 25px;
+}
+
+.container_contato a{
+    color: #9A9A9A;
+    font-size: 1.5rem;
+}
+
+.container_contato .btn{
+    font-size: 1.5rem;
+    padding: 10px 20px;
+}
+
+footer{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding-top: 10px;
+    margin-bottom: 5px;
+    border-top: 1px solid #3F3F43;
+}
+
+footer a{
+    text-decoration: none;
+    color: #9A9A9A;
 }
