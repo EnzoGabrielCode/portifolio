@@ -10,7 +10,7 @@ body{
 
 header{
     display: flex;
-    width: 100vw;
+    /* width: 100vw; */
     height: 56px;
     background-color: #111217;
     border-bottom: 1px solid #28292E;
@@ -57,7 +57,7 @@ header{
 }
 
 .container_img{
-    width: 100%;
+    width: 70%;
 }
 
 .container_nome{
@@ -116,10 +116,7 @@ header{
     height: 30px;
 }
 
-
 .menu_link{
-    width: 25px;
-    height: 25px;
     color: #9A9A9A;
 }
 
@@ -136,4 +133,162 @@ header{
     cursor: pointer;
     color: #fff;
     border: 1px solid #fff;
+}
+
+#tecnologias{
+    margin-top: 5%;
+}
+
+.container_tecnologias{
+    background-color: #28292E;
+    height: 300px;
+    display: flex;
+    gap: 8%;
+    align-items: center;
+    padding-left: 10%;
+    padding-right: 10%;
+}
+
+.tecnologia_texto{
+    display: flex;
+    justify-content: space-between;
+}
+
+.tecnologia_texto > h3{
+    color: #F0F0F0;
+    font-weight: 200;
+    font-size: 3rem;
+}
+
+.tecnologia_badge{
+    display: flex;
+    gap: 10px;
+    justify-content: space-between;
+}
+
+.caixa_badge{
+    border: 1px solid #3F3F43;
+    height: 128px;
+    width: 128px;
+    border-radius: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.caixa_badge img{
+    width: auto;
+    height: 64px;
+}
+
+.container_projetos{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 5%;
+    gap: 50px;
+    margin-left: 10%;
+    margin-right: 10%;
+}
+
+.projeto_texto h2{
+    font-size: 4rem;
+    font-weight: 200;
+    color: #F0F0F0;
+    text-transform: uppercase;
+}
+
+.container_cards{
+    display: flex;
+    flex-direction: column;
+    gap: 50px;
+    width: 100%;
+}
+
+.card{
+    display: flex;
+    flex-direction: row;
+    width: 100%;
+    height: auto;
+    background-color: #28292E;
+    border-radius: 20px;
+    padding: 35px;
+    gap: 35px;
+}
+
+.card_reverse{
+    display: flex;
+    flex-direction: row-reverse;
+    width: 100%;
+    height: 450px;
+    background-color: #28292E;
+    border-radius: 20px;
+    padding: 35px;
+}
+
+.descricao_card{
+    gap: 20px;
+}
+
+.card_text{
+    color: #F0F0F0;
+   
+}
+
+.card_text h4{
+    font-size: 2.5rem;
+    font-weight: 200;
+    text-transform: uppercase;
+    padding-bottom: 20px;
+}
+
+.card_text p{
+    font-size: 1.1rem;
+    padding-bottom: 20px;
+}
+
+.card_text ul li{
+    font-size: 1.2rem;
+    list-style: disc;
+    margin-left: 3.5%;
+    color: #9A9A9C;
+}
+
+.card_tecnologias{
+    padding-top: 20px;
+    padding-bottom: 20px;
+    display: flex;
+    gap: 12px;
+}
+
+.card_tecnologias .caixa_badge{
+    width: 80px;
+    height: 80px;
+}
+
+.card_tecnologias img{
+    width: 40px;
+    height: 40px;
+}
+
+.card_btn{
+    display: flex;
+    gap: 40px;
+    align-items: center;
+}
+
+.card_btn .btn{
+    padding: 15px;
+    text-transform: uppercase;
+}
+
+.card_btn span{
+    text-transform: uppercase;
+    color: #F0F0F0;
+    text-decoration: none;
+}
+
+.projeto_btn .btn{
+    text-transform: uppercase;
+    padding: 20px;
 }

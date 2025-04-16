@@ -17,42 +17,165 @@
             <ul class="nav_menu">
                 <li><a class="nav_buttons" href="#home" ><span>HOME</span></a></li>
                 <li><a class="nav_buttons" href="#projetos"><span>PROJETOS</span></a></li>
-                <li><a class="nav_buttons" href="#sobre"><span>SOBRE</span></a></li>
+                <li><a class="nav_buttons" href="#formacao"><span>FORMAÇÃO</span></a></li>
                 <li><a class="nav_buttons" href="#contato"><span>CONTATO</span></a></li>
             </ul>
         </nav>
         <div class="logo_nome">
-            <img src="./src/img/EnzoGabrielCode.png" alt="">
+            <img src="./src/img/home/EnzoGabrielCode.png" alt="">
         </div>
     </header>
     <main>
-        <div class="container_apresentacao">
-            <div class="container_textos">
-                <div class="container_nome">
-                    <h2>OLÁ, MEU NOME É</h2>
-                    <h1>Enzo Gabriel</h1>
+        <section id="home">
+            <div class="container_apresentacao">
+                <div class="container_textos">
+                    <div class="container_nome">
+                        <h2>OLÁ, MEU NOME É</h2>
+                        <h1>Enzo Gabriel</h1>
+                    </div>
+                    <div class="container_descricao">
+                        <h3>SOU UM desenvolvedor</h3>
+                        <p>Sou estudante de programação e atualmente curso o primeiro semestre de Desenvolvimento de Software Multiplataforma (DSM) na FATEC de São José dos Campos. Tenho como objetivo me tornar, futuramente, um desenvolvedor full stack. Embora ainda não atue profissionalmente na área, estou constantemente aprimorando meus conhecimentos e habilidades por meio de estudos e projetos práticos.</p>
+                    </div>
+                    <div class="links">
+                        <ul class="menu_links">
+                            <li><a class="menu_link" href="https://github.com/EnzoGabrielCode" target="_blank"><i class="bi bi-github"></i></a></li>
+                            <li><a class="menu_link" href="https://www.linkedin.com/in/enzo-gabriel-de-paula-8795a8332/" target="_blank"><i class="bi bi-linkedin"></i></a></li>
+                        </ul>
+                        <a href="./src/pdf/curriculo Enzo Gabriel com foto.pdf" target="_blank">
+                            <button src class="btn">
+                                <span>Currículo</span>
+                                <i class="bi bi-arrow-down-right"></i>
+                            </button>
+                        </a>
+                    </div>
                 </div>
-                <div class="container_descricao">
-                    <h3>SOU UM desenvolvedor</h3>
-                    <p>Sou estudante de programação e atualmente curso o primeiro semestre de Desenvolvimento de Software Multiplataforma (DSM) na FATEC de São José dos Campos. Tenho como objetivo me tornar, futuramente, um desenvolvedor full stack. Embora ainda não atue profissionalmente na área, estou constantemente aprimorando meus conhecimentos e habilidades por meio de estudos e projetos práticos.</p>
-                </div>
-                <div class="links">
-                    <ul class="menu_links">
-                        <li><a class="menu_link" href="https://github.com/EnzoGabrielCode" target="_blank"><i class="bi bi-github"></i></a></li>
-                        <li><a class="menu_link" href="https://www.linkedin.com/in/enzo-gabriel-de-paula-8795a8332/" target="_blank"><i class="bi bi-linkedin"></i></a></li>
-                    </ul>
-                    <a href="#projetos">
-                        <button src class="btn">
-                            <span>Currículo</span>
-                            <i class="bi bi-arrow-down-right"></i>
-                        </button>
-                    </a>
+                <div class="container_img">
+                    <img src="./src/img/home/foto.jpg" alt="" class="foto_perfil">
                 </div>
             </div>
-            <div class="container_img">
-                <img src="./src/img/foto.jpg" alt="" class="foto_perfil">
+    </section>
+    <section id="tecnologias">
+        <div class="container_tecnologias">
+            <div class="tecnologia_texto">
+                <h3>Conhecimento nas principais tecnologias do mercado:</h3>
+            </div>
+            <div class="tecnologia_badge">
+                <div class="caixa_badge"><img src="./src/img/tecnologias/HTML.png" alt="" class="badge_HTML"></div>
+                <div class="caixa_badge"><img src="./src/img/tecnologias/CSS.png" alt="" class="badge_CSS"></div>
+                <div class="caixa_badge"><img src="./src/img/tecnologias/JS.png" alt="" class="badge_JS"></div>
+                <div class="caixa_badge"><img src="./src/img/tecnologias/PYTHON.png" alt="" class="badge_PYTHON"></div>
             </div>
         </div>
+    </section>
+    <section id="projetos">
+        <div class="container_projetos">
+            <div class="projeto_texto">
+                <h2>projetos</h2>
+            </div>
+            <div class="container_cards">
+                <div class="card">
+                    <img src="./src/img/prjetos/spiderman.png" alt="">
+                    <div class="descricao_card">
+                        <div class="card_text">
+                            <h4>multiverso spider-man</h4>
+                            <p>Este projeto é uma página dedicada ao multiverso do Homem-Aranha, com diversas seções criadas para apresentar cada filme da franquia de forma única e interativa.</p>
+                            <ul>
+                                <li>Tela de home;</li>
+                                <li>Carrossel interativo;</li>
+                                <li>Animações e interatividade.</li>
+                            </ul>
+                        </div>
+                        <div class="card_tecnologias">
+                            <div class="caixa_badge"><img src="./src/img/tecnologias/HTML.png" alt="" class="badge_HTML"></div>
+                            <div class="caixa_badge"><img src="./src/img/tecnologias/CSS.png" alt="" class="badge_CSS"></div>
+                            <div class="caixa_badge"><img src="./src/img/tecnologias/JS.png" alt="" class="badge_JS"></div>
+                        </div>
+                        <div class="card_btn">
+                            <a href="https://enzogabrielcode.github.io/spider-man-multiversus/index.html" target="_blank">
+                                <button class="btn btn--primary">
+                                    <span>Prévia do Projeto</span>
+                                    <i class="bi bi-arrow-up-right"></i>
+                                </button>
+                            </a>
+                            <a href="https://github.com/EnzoGabrielCode/spider-man-multiversus" target="_blank">
+                                    <span> ver repositório</span>
+                            </a>
+                        </div>
+                    </div>
+                </div>
+                <div class="card">
+                    <img src="./src/img/prjetos/mundoinvertido.png" alt="">
+                    <div class="descricao_card">
+                        <div class="card_text">
+                            <h4>MUNDO INVERTIDO</h4>
+                            <p>Este projeto é inspirado na série Stranger Things, desenvolvido para oferecer uma experiência interativa e explorar de forma criativa os elementos icônicos da trama.</p>
+                            <ul>
+                                <li>Elementos divertidos e interativos;</li>
+                                <li>Animações;</li>
+                                <li>Areá de cadastros.</li>
+                            </ul>
+                        </div>
+                        <div class="card_tecnologias">
+                            <div class="caixa_badge"><img src="./src/img/tecnologias/HTML.png" alt="" class="badge_HTML"></div>
+                            <div class="caixa_badge"><img src="./src/img/tecnologias/CSS.png" alt="" class="badge_CSS"></div>
+                            <div class="caixa_badge"><img src="./src/img/tecnologias/JS.png" alt="" class="badge_JS"></div>
+                        </div>
+                        <div class="card_btn">
+                            <a href="#" target="_blank">
+                                <button class="btn btn--primary">
+                                    <span>Prévia do Projeto</span>
+                                    <i class="bi bi-arrow-up-right"></i>
+                                </button>
+                            </a>
+                            <a href="https://github.com/EnzoGabrielCode/landing-page-mundo-invertido" target="_blank">
+                                    <span> ver repositório</span>
+                            </a>
+                        </div>
+                    </div>
+                </div>
+                <div class="card">
+                    <img src="./src/img/prjetos/api.png" alt="">
+                    <div class="descricao_card">
+                        <div class="card_text">
+                            <h4>estatistica de comércio exterior</h4>
+                            <p>Este projeto é uma API (aprendizado por projeto integrado) desenvolvido durante o primeiro semestre de DSM (Desenvolvimento de Software e multiplataforma) para o gerenciamento de dados estatísticos de exportações no estado de São Paulo.</p>
+                            <ul>
+                                <li>Tela de home;</li>
+                                <li>Gráficos interativos;</li>
+                                <li>Análise e controle de dados.</li>
+                            </ul>
+                        </div>
+                        <div class="card_tecnologias">
+                            <div class="caixa_badge"><img src="./src/img/tecnologias/HTML.png" alt="" class="badge_HTML"></div>
+                            <div class="caixa_badge"><img src="./src/img/tecnologias/CSS.png" alt="" class="badge_CSS"></div>
+                            <div class="caixa_badge"><img src="./src/img/tecnologias/JS.png" alt="" class="badge_JS"></div>
+                            <div class="caixa_badge"><img src="./src/img/tecnologias/PYTHON.png" alt="" class="badge_PYTHON"></div>
+                        </div>
+                        <div class="card_btn">
+                            <a href="#" target="_blank">
+                                <button class="btn btn--primary">
+                                    <span>Prévia do Projeto</span>
+                                    <i class="bi bi-arrow-up-right"></i>
+                                </button>
+                            </a>
+                            <a href="https://github.com/Team-Chronos/API-DSM-1SEMESTRE-2025" target="_blank">
+                                    <span> ver repositório</span>
+                            </a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="projeto_btn">
+                <a href="https://github.com/EnzoGabrielCode" target="_blank">
+                    <button class="btn btn--primary">
+                        <span>Ver Todos os projetos</span>
+                        <i class="bi bi-arrow-up-right"></i>
+                    </button>
+                </a>
+            </div>
+        </div>
+    </section>
     </main>
 
     <footer></footer>
