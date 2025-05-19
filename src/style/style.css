@@ -47,7 +47,7 @@ header{
 .container_apresentacao{
     display: flex;
     height: auto;
-    margin-top: 5%;
+    margin-top: 10%;
     margin-left: 10%;
     margin-right: 10%;
 }
@@ -61,7 +61,7 @@ header{
 }
 
 .container_img{
-    width: 70%;
+    width: 280%;
 }
 
 .container_nome{
@@ -80,6 +80,10 @@ header{
     font-weight: 300;
 }
 
+.texto_descricao{
+    font-size: 1.25rem;
+}
+
 .container_img > img{
     width: 100%;
     border-radius: 50%;
@@ -89,6 +93,7 @@ header{
     display: flex;
     flex-direction: column;
     gap: 10px;
+    padding-right: 30px;
     color: #fff;
 }
 
@@ -216,7 +221,8 @@ header{
 
 .card{
     display: flex;
-    flex-direction: row;
+    flex-direction: column;
+    align-items: center;
     width: 100%;
     height: auto;
     background-color: #28292E;
@@ -225,23 +231,19 @@ header{
     gap: 35px;
 }
 
-.card_reverse{
-    display: flex;
-    flex-direction: row-reverse;
-    width: 100%;
-    height: 450px;
-    background-color: #28292E;
-    border-radius: 20px;
-    padding: 35px;
-}
 
 .descricao_card{
-    gap: 20px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
 }
 
 .card_text{
     color: #F0F0F0;
-   
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
 }
 
 .card_text h4{
@@ -253,7 +255,6 @@ header{
 
 .card_text p{
     font-size: 1.1rem;
-    padding-bottom: 20px;
 }
 
 .card_text ul li{
@@ -485,4 +486,16 @@ footer{
 footer a{
     text-decoration: none;
     color: #9A9A9A;
+}
+
+.up:hover{
+    transform: scale(1.08);
+}
+
+.texto_activate:hover{
+    color: #fff;
+}
+
+.active{
+    color: #fff;
 }
