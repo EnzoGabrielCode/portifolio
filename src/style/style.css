@@ -629,6 +629,10 @@ footer a{
         font-size: 1rem;
     }
 
+    .experiencias_text{
+        width: 300px;
+    }
+
     .experiencias_title h2{
         font-size: 2.5rem;
         text-align: center;
