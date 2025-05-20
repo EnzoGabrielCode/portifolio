@@ -1,7 +1,6 @@
 @import url('https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&family=League+Spartan:wght@100..900&display=swap');
 
-
 body{
     background-color: #111217;
     font-family: "Inter", sans-serif;
@@ -498,4 +497,181 @@ footer a{
 
 .active{
     color: #fff;
+}
+
+@media (max-width: 768px){
+    header{
+        padding: 0;
+        width: 100%;
+        position: fixed;
+        justify-content: center;
+        align-items: center;
+        top: 0%;
+        right: 0%;
+        left: 0%;
+    }
+    .nav_menu{
+        width: 100%;
+        gap: 10px;
+        justify-content: space-between;
+    }
+    .container_img{
+        display: none;
+    }
+    nav span{
+        font-size: 1rem;
+    }
+
+    .logo_nome{
+        display: none;
+    }
+
+    .textos_info{
+        flex-direction: column;
+        gap: 30px;
+    }
+
+    .cursos_container{
+        flex-direction: column;
+    }
+
+    #home{
+        margin-top: 100px;
+        padding-bottom: 50px;
+    }
+
+    .container_nome h1{
+        font-size: 3rem;
+    }
+
+    .container_nome h2{
+        font-size: 1.5rem;
+        text-align: center;
+    }
+
+    .container_descricao{
+        padding: 0;
+    }
+
+    .container_descricao p{
+        padding: 0;
+    }
+
+    .container_descricao h3{
+        font-size: 1.15rem;
+        text-align: center;
+    }
+
+    .texto_descricao{
+        font-size: 0.9rem;
+        text-align: center;
+        padding: 0;
+    }
+
+    .links{
+        flex-direction: column;
+    }
+
+    .tecnologia_texto h3{
+        font-size: 2.25rem;
+    }
+
+    .container_tecnologias{
+        padding-top: 30px;
+        display: flex;
+        flex-direction: column;
+    }
+
+    .tecnologia_badge{
+        flex-direction: row;
+    }
+
+    .caixa_badge{
+        width: 80px;
+        height: 80px;
+    }
+
+    .projeto_texto h2{
+        font-size: 3.5rem;
+    }
+
+    .card img{
+        width: 100%;
+    }
+
+    .caixa_badge img{
+        width: 40px;
+        height: 40px;
+    }
+    
+    .card_text h4{
+        font-size: 2rem;
+        white-space: wrap;
+    }
+
+    .container_projetos{
+        margin-bottom: 40px;
+    }
+
+    .formacao_title h2{
+        font-size: 2.5rem;
+        /* text-align: center; */
+    }
+
+    .formacao_title h3{
+        font-size: 1rem;
+    }
+
+    .formacao_title li{
+        font-size: 1rem;
+    }
+
+    .experiencias_title h2{
+        font-size: 2.5rem;
+        text-align: center;
+        width: auto;
+    }
+
+    .experiencias_title h3{
+        font-size: 1.15rem;
+    }
+
+    .experiencias_title h4{
+        font-size: 1.15rem;
+    }
+
+    .experiencias_title p{
+        font-size: 1rem;
+    }
+
+    .experiencias_text ul li{
+        font-size: 1rem;
+    }
+
+    .cursos_text h2{
+        font-size: 3.5rem;
+    }
+
+    .cursos_container{
+        gap: 30px;
+    }
+
+    .container_contato h2{
+        font-size: 2rem;
+    }
+
+    .container_contato p{
+        font-size: 1rem;
+        padding: 0 30px;
+        text-align: center;
+    }
+
+    .container_contato .btn{
+        font-size: 1rem;
+    }
+
+    footer p{
+        text-align: center;
+        font-size: 0.7rem;
+    }
 }
