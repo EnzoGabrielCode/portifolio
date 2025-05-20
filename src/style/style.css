@@ -541,7 +541,8 @@ footer a{
     }
 
     .container_nome h1{
-        font-size: 3rem;
+        font-size: 2.5rem;
+        text-align: center;
     }
 
     .container_nome h2{
@@ -578,8 +579,10 @@ footer a{
 
     .container_tecnologias{
         padding-top: 30px;
+        padding-bottom: 300px;
         display: flex;
         flex-direction: column;
+        gap: 15px;
     }
 
     .tecnologia_badge{
@@ -654,6 +657,15 @@ footer a{
 
     .cursos_container{
         gap: 30px;
+    }
+
+    .cursos_card{
+        width: 90%;
+    }
+
+    .cursos_card img{
+        height: 100%;
+        width: 100%;
     }
 
     .container_contato h2{
